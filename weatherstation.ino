@@ -14,7 +14,6 @@ void setup() {
     Serial.println("Failed to initialize pressure sensor!");
     while (60000);
   }
-
 }
 
 void loop() {
@@ -28,5 +27,5 @@ void loop() {
 
   Serial.println();
 
-  delay(1000);
+  delay(60000);
 }
